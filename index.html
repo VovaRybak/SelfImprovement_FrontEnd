@@ -1,179 +1,211 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Тренируйте внимание, память и мышление на Викиум. :: Wikium.ru</title>
-	<link rel="stylesheet" href="/styles/css/style.css">
-	<link rel="stylesheet" href="/styles/css/header-styles.css">
+	<title>Тренируйте внимание, память и мышление на Викиум.</title>
+	<link rel="stylesheet" href="styles/css/style.css">
+	<link rel="icon" href="styles/images/favicon.png">
 </head>
 <body>
-	<div class="header">
-		<div class="header__main_stripe">
-			<div class="header__main_stripe-logo">
-				<img src="/styles/images/header-logo.svg" alt="">
+	<header class="header">
+		<div class="header__menu menu-stripe">
+			<div class="menu-stripe__logo logo">
+				<img class="logo__image" src="styles/images/header-logo.svg" alt="wikium">
 			</div>
-			<div class="header__main_stripe-language">
-				<select name="language_select" id="">
-					<option selected value="ru">Русский</option>
-					<option value="en">English</option>
+			<div class="menu-stripe__language">
+				<!-- <span class="language-icon"></span> -->
+				<select class="select-language" name="" id="">
+					<option value="">Русский</option>
+					<option value="">English</option>
 				</select>
 			</div>
 		</div>
-		<div class="header__title">
-			<div class="header__title_main">Тренируйте мозг с удовольствием</div>
-			<div class="header__title_sub">Развивайте память, внимание и мышление с помощью онлайн-тренажеров</div>
+		<div class="header-title">
+			<h1 class="header-title__main-title titles-general">Тренируйте мозг с удовольствием</h1>
+			<p class="header-title__sub-title sub-titles-general">Развивайте память, внимание и мышление с помощью онлайн-тренажеров</p>
 		</div>
-		<div class="header__acount">
-			<div class="header__acount_create"><a href="#">НАЧАТЬ РАЗВИВАТЬСЯ</a></div>
-			<div class="header__acount_enter"><a href="#">У меня уже есть аккаунт</a></div>
+		<button class="btn-general">Начать развиваться</button>
+		<p class="header__link">
+			<a class="lnk-general" href="#">У меня уже есть аккаунт</a>
+		</p>
+	</header>
+	<section class="benefits">
+		<h2 class="ttl-general titles-general">Эффект от занятий</h2>
+		<p class="benefits__caption">В основе тренажеров Викиум лежат методики российских и зарубежных нейропсихологов, доказавшие свою эффективность в ходе множества экспериментов и научных работ</p>
+		<div class="benefits__numbers">
+			<ul class="efficiency">
+				<li class="efficiency__block">
+					<span class="efficiency__number">+15%</span>
+					<p class="efficiency__caption">к скорости реакции за неделю</p>
+				</li>
+				<li class="efficiency__block">
+					<span class="efficiency__number">x1,5</span>
+					<p class="efficiency__caption">к фокусировке на задачах за 1 месяц</p>
+				</li>
+				<li class="efficiency__block">
+					<span class="efficiency__number">x2</span>
+					<p class="efficiency__caption">к вниманию к мелочам и деталям за 2 месяца</p>
+				</li>
+				<li class="efficiency__block">
+					<span class="efficiency__number">+20%</span>
+					<p class="efficiency__caption">к памяти за 2–3 недели</p>
+				</li>
+			</ul>
 		</div>
-	</div>
-	<div class="effect">
-		<div class="effect__header">Эффект от занятий</div>
-		<div class="effect__description">В основе тренажеров Викиум лежат методики российских и зарубежных нейропсихологов, доказавшие свою эффективность в ходе множества экспериментов и научных работ</div>
-		<div class="effect__numbers">
-			<div class="effect__numbers_block">
-				<div class="effect__numbers_block_head">+15%</div><div class="effect__numbers_block_desc">к скорости реакции за неделю</div>
-			</div>
-			<div class="effect__numbers_block">
-				<div class="effect__numbers_block_head">x1,5</div>
-				<div class="effect__numbers_block_desc">к фокусировке на задачах за 1 месяц</div>
-			</div>
-			<div class="effect__numbers_block">
-				<div class="effect__numbers_block_head">x2</div>
-				<div class="effect__numbers_block_desc">к вниманию к мелочам и деталям за 2 месяца</div>
-			</div>
-			<div class="effect__numbers_block">
-				<div class="effect__numbers_block_head">+20%</div>
-				<div class="effect__numbers_block_desc">к памяти за 2–3 недели</div>
-			</div>
-		</div>
-		<div class="header__acount">
-			<div class="header__acount_create"><a href="#">НАЧАТЬ РАЗВИВАТЬСЯ</a></div>
-		</div>
-	</div>
-	<div class="userful__wraper">
-		<div class="userful__container">
-			<div class="userful__container_header">Кому полезны наши тренажеры?</div>
-			<div class="userful__container_persons">
-				<div class="userful__container_persons_block">
-					<div class="userful__container_persons_block_image"><img src="styles/images/young.svg" alt=""></div>
-					<div class="userful__container_persons_block_header">Младший возраст</div>
-					<div class="userful__container_persons_block_list">
-						<ul>
+		<button class="btn-general">Начать развиваться</button>
+	</section>
+	<section class="audience">
+		<div class="container">
+			<div class="audience__inner">
+				<h2 class="ttl-general titles-general">Кому полезны наши тренажеры?</h2>
+				<div class="audience__list-block">
+					<div class="list-block">
+						<img src="styles/images/young.svg" alt="" class="list-block__image">
+						<h4 class="list-block__header">Младший возраcт</h4>
+						<ul class="list-block__list">
 							<li>Улучшить обучаемость в учебных заведениях</li><br>
 							<li>Профилактика синдрома дефицита внимания</li>
 						</ul>
 					</div>
-				</div>
-				<div class="userful__container_persons_block">
-					<div class="userful__container_persons_block_image"><img src="styles/images/middle.svg" alt=""></div>
-					<div class="userful__container_persons_block_header">Средний возраст</div>
-					<div class="userful__container_persons_block_list"><ul>
-						<li>Повысить личную продуктивность, эффективность</li><br>
-						<li>Делать меньше ошибок и недочетов на работе</li><br>
-						<li>Держать мозг в тонусе в течение дня</li>
-					</ul></div>
-				</div>
-				<div class="userful__container_persons_block">
-					<div class="userful__container_persons_block_image"><img src="styles/images/old.svg" alt=""></div>
-					<div class="userful__container_persons_block_header">Пожилой возраст</div>
-					<div class="userful__container_persons_block_list">
-						<ul>
-							<li>Дольше сохранять остроту и ясность ума</li><br>
+					<div class="list-block">
+						<img src="styles/images/middle.svg" alt="" class="list-block__image">
+						<h4 class="list-block__header">Средний возраст</h4>
+						<ul class="list-block__list">
+							<li>Повысить личную продуктивность, эффективность</li><br>
+							<li>Делать меньше ошибок и недочетов на работе</li><br>
+							<li>Держать мозг в тонусе в течение дня</li>
+						</ul>
+					</div>
+					<div class="list-block">
+						<img src="styles/images/old.svg" alt="" class="list-block__image">
+						<h4 class="list-block__header">Пожилой возраст</h4>
+						<ul class="list-block__list">
+							<li>Дольше сохранять остроту и ясность ума</li>
+							<br>
 							<li>Профилактика возрастных заболеваний, вызванных снижением интеллектуальной нагрузки</li>
 						</ul>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="neuro">
-		<div class="neuro_container">
-			<div class="neuro_container__header">Вам нужно увеличивать количество синапсов</div>
-			<div class="neuro_container__info">
-				<div class="neuro_container__info_synaps">
-					<div class="neuro_container__info_synaps_title">Синапс — это место контакта между двумя нейронами</div>
-					<p>Количество нейронов и синапсов, а также их качество определяют интеллектуальный потенциал — гибкость ума, память, креативность, талант.</p>
-					<p><span>Развитие мозга</span> — это процесс создания, укрепления или восстановления утраченных нейронных (синаптических) связей.</p>
-					<p>Процесс создания новых нейронов в науке называется нейрогенезом.</p>
-				</div>
-				<div class="neuro_container__info_image"><img src="/styles/images/neuro.svg" alt="">Схема нейронных связей</div>
+		</div>		
+	</section>
+	<section class="science">
+		<div class="container">
+			<div class="science__inner">
+				<h2 class="ttl-general titles-general">Вам нужно увеличивать количество синапсов</h2>
+				<h4 class="neuro__title">Синапс — это место контакта между двумя нейронами</h4>
+				<article class="neuro">
+					<section class="neuro__info">
+						<p>Количество нейронов и синапсов, а также их качество определяют интеллектуальный потенциал — гибкость ума, память, креативность, талант.</p>
+						<p><strong>Развитие мозга</strong> — это процесс создания, укрепления или восстановления утраченных нейронных (синаптических) связей.</p>
+						<p>Процесс создания новых нейронов в науке называется нейрогенезом.</p>
+					</section>
+					<section class="neuro__ilustration">
+						<figure>
+							<img class="neuro__image" src="styles/images/neuro.svg" alt="">
+							<figcaption class="neuro__ilustration_caption">
+								Схема нейронных связей
+							</figcaption>
+						</figure>	
+					</section>
+				</article>
+				<p class="science__info">Получение новой информации, а также специальные тренировки образуют новые синапсы.</p>
+				<p class="science__caption">Вам решать как активно они будут создаваться!</p>
+				<button class="btn-general">Начать тренироваться</button>
 			</div>
-			<div class="neuro_container__lower">
-				<div class="neuro_container__lower_big_ad">Получение новой информации, а также специальные тренировки образуют новые синапсы.</div>
-				<div class="neuro_container__lower_header">Вам решать как активно они будут создаваться!</div>
-				<div class="header__acount">
-					<div class="header__acount_create">
-						<a href="#">НАЧАТЬ ТРЕНИРОВАТЬСЯ</a>
+		</div>		
+	</section>
+	<section class="train">
+		<div class="train__inner">
+			<h2 class="titles-general ttl-general">Как тренироваться</h2>
+		</div>
+		<div class="train__main">
+			<div class="train-block">
+				<img src="styles/images/train1.png" alt="">
+				<h4 class="train-block__title">Оцените ваши способности</h4>
+				<p class="train-block__caption">Пройдите вводное тестирование, чтобы получить оценку вашего текущего уровня памяти, внимания и мышления. Для вас будет сформирована персональная программа развития</p>
+			</div>
+			<div class="train-block">
+				<img src="styles/images/train2.png" alt="">
+				<h4 class="train-block__title">Выполняйте ежедневную тренировку</h4>
+				<p class="train-block__caption">Ежедневная программа развития включает разминку и тренировку. Это займет у вас 15 минут в день</p>
+			</div>
+			<div class="train-block">
+				<img src="styles/images/train3.png" alt="">
+				<h4 class="train-block__title">Следите за вашим развитием</h4>
+				<p class="train-block__caption">Следите за статистикой ваших тренировок, улучшайте показатели, сравнивайте свои достижения с результатами других пользователей</p>
+			</div>
+		</div>
+		<button class="btn-general">Начать тренировку</button>
+	</section>
+	<section class="users">
+		<div class="users__inner">
+			<span class="users__amount">1 869 812</span>
+			<p class="users__caption">человек уже тренируются на Викиум</p>
+			<div class="comments">
+				<div class="comments__block">
+					<img class="comments__image" src="styles/images/evgeny_32.png" alt="">
+					<div class="comments__info">
+						<p class="comments__info_text">По возможности ста­ра­юсь не са­дить­ся за руль без десяти­минут­но­го за­ня­тия на ваших тренажерах — очень помо­гают включить вни­мание и чувство­вать себя увереннее.</p>
+						<p class="comments__info_user">Евгений, 32 года</p>
+					</div>
+				</div>
+				<div class="comments__block">
+					<img class="comments__image" src="styles/images/svetlana_52.png" alt="">
+					<div class="comments__info">
+						<p class="comments__info_text">Перестала забывать куда кладу вещи, в магазин теперь хожу без списка, да и вообще мысли стали собраннее</p>
+						<p class="comments__info_user">Светлана Николаевна,<br> 52 года</p>
+					</div>
+				</div>
+				<div class="comments__block">
+					<img class="comments__image" src="styles/images/anton_27.png" alt="">
+					<div class="comments__info">
+						<p class="comments__info_text">Работаю на погрузчике, за­ме­тил, что но­ме­ра пози­ций стал до­ста­вать из головы, а не из за­писки — стал успе­вать го­раз­до боль­ше нормы.</p>
+						<p class="comments__info_user">Антон, 27 лет</p>
 					</div>
 				</div>
 			</div>
+			<a class="lnk-general users__link" href="#">Еще отзывы</a>
+			<button class="btn-general">Присоедениться к Викиум</button>
 		</div>
-	</div>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<div class="users">
-		<div class="users__header">
-			<div class="users__header_main">1 847 318</div>
-			<div class="users__header_sub">человек уже тренируются на Викиум</div>
+	</section>
+	<section class="partners">
+		<h2 class="titles-general ttl-general">О нас пишут и говорят</h2>
+		<div class="partners__block">
+			<img src="styles/images/partner1.png" alt="">
+			<img src="styles/images/partner2.png" alt="">
+			<img src="styles/images/partner3.png" alt="">
+			<img src="styles/images/partner4.png" alt="">
+			<img src="styles/images/partner5.png" alt="">
 		</div>
-		<div class="users__content">
-			<div class="users__content_comments">
-				<div class="users__content_comments_message">
-					<div class="users__content_comments_message_image"><img src="styles/images/evgeny_32.png" alt=""></div>
-					<div class="users__content_comments_message_text">По возможности ста­ра­юсь не са­дить­ся за руль без десяти­минут­но­го за­ня­тия на ваших тренажерах — очень помо­гают включить вни­мание и чувство­вать себя увереннее.</div>
-				</div>
-				<div class="users__content_comments_user">Евгений, 32 года</div>
+		<h2 class="titles-general ttl-general">Наши награды и достижения</h2>
+		<div class="partners__block">
+			<img src="styles/images/partner6.png" alt="">
+			<img src="styles/images/partner7.png" alt="">
+			<img src="styles/images/partner8.png" alt="">
+		</div>
+		<h3 class="titles-general partners__title">Викиум – участник престижнейших международных <br> форумов и конференций</h3>
+		<div class="partners__block">
+			<img src="styles/images/partner9.png" alt="">
+			<img src="styles/images/partner10.png" alt="">
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-contact">
+				<p class="footer-contact__phone">
+					Телефон: +7 (495) 133-86-63 
+					<br>с 10:00 до 19:00</p>
+				<p>© Викиум 2013 - 2018</p>
 			</div>
-			<div class="users__content_comments">
-				<div class="users__content_comments_message">
-					<div class="users__content_comments_message_image"><img src="styles/images/svetlana_52.png" alt=""></div>
-					<div class="users__content_comments_message_text">Перестала забывать куда кладу вещи, в магазин теперь хожу без списка, да и вообще мысли стали собраннее.</div>
-				</div>
-				<div class="users__content_comments_user">Светлана Николаевна, 52 года</div>
-			</div>
-			<div class="users__content_comments">
-				<div class="users__content_comments_message">
-					<div class="users__content_comments_message_image"><img src="styles/images/anton_27.png" alt=""></div>
-					<div class="users__content_comments_message_text">Работаю на погрузчике, за­ме­тил, что но­ме­ра пози­ций стал до­ста­вать из головы, а не из за­писки — стал успе­вать го­раз­до боль­ше нормы.</div>
-				</div>
-				<div class="users__content_comments_user">Антон, 27 лет</div>
-			</div>
-		</div>
-		<div class="users__text">Еще отзывы</div>
-		<div class="header__acount">
-					<div class="header__acount_create">
-						<a href="#">ПРИСОЕДЕНИТЬСЯ К ВИКИУМ</a>
-					</div>
-		</div>
-	</div>
-<div class="footer_wraper">
-	<div class="footer">
-		<div class="footer__contact">
-			<div class="footer__contact_phone">Телефон: +7 (495) 133-86-63 <br> с 10:00 до 19:00</div>
-			<div class="footer__contact_years">© Викиум 2013 - 2018</div>
-		</div>
-		<div class="footer__feedback">
-			<div class="header__acount">
-				<div class="header__acount_create">
-					<a href="#">НАЧАТЬ РАЗВИВАТЬСЯ</a>
+			<div class="footer-feedback">
+				<button class="btn-general">Начать развиваться</button>
+				<div class="footer-feedback__help">
+					<a class="lnk-general">Пресс-служба</a>
+					<a class="lnk-general">Помощь</a>
 				</div>
 			</div>
-			<div class="footer__feedback_help">
-				<div class="footer__feedback_help_item">Пресс-служба</div>
-				<div class="footer__feedback_help_item">Помощь</div>
-			</div>
-	
-		</div>
-	</div>
-</div></body>
+		</div>					
+	</footer>
+</body>
 </html>
